@@ -1,4 +1,5 @@
 const express = require('express')
+const bodyParser = require('body-parser')
 const routes = require('./routes')
 
 class Server {
@@ -9,7 +10,7 @@ class Server {
   }
 
   middlewares () {
-    this.express.use(express.json())
+    this.express.use(bodyParser.json())
   }
 
   routes () {
