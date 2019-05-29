@@ -1,7 +1,7 @@
 const Assistant = require('../config/watson')
 
 class Chat {
-  conversation(req, res) {
+  conversation (req, res) {
     const { text, context = {} } = req.body
 
     const params = {
@@ -12,7 +12,6 @@ class Chat {
 
     Assistant.message(params, (err, response) => {
       if (err) {
-        console.error(err)
         res.status(500).json(err)
       } else {
         res.json(response)
