@@ -1,5 +1,12 @@
 import React from 'react'
 
-const App = () => <div>Pizza Bot</div>
+import GlobalStyles from './styles'
+
+const App = () => (
+  <>
+    <GlobalStyles />
+    Pizza Bot
+  </>
+)
 
 export default App
