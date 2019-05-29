@@ -1,11 +1,12 @@
 import React from 'react'
 
+import Chat from 'screens/chat'
 import GlobalStyles from './styles'
 
 const App = () => (
   <>
     <GlobalStyles />
-    Pizza Bot
+    <Chat />
   </>
 )
 
