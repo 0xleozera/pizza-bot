@@ -51,6 +51,10 @@ export const SubmitButton = styled.button.attrs({
   &:hover {
     background-color: ${colors.hover};
   }
+
+  &:focus {
+    outline: none;
+  }
 `
 
 export const Icon = styled.img.attrs({
