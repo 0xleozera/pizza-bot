@@ -5,7 +5,7 @@ import { Container, Avatar, Name } from './styles'
 const Header = () => (
   <Container>
     <Avatar />
-    <Name>Pizza ULBRA</Name>
+    <Name>Pizzaria ULBRA</Name>
   </Container>
 )
 
