@@ -9,6 +9,7 @@ const Footer = ({ onSubmit }) => {
   const handleSubmit = (event) => {
     event.preventDefault()
     onSubmit(message)
+    setMessage('')
   }
 
   return (

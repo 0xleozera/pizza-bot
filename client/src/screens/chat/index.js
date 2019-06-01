@@ -9,9 +9,9 @@ const Chat = () => {
   const [messages, setMessage] = useState([])
   const [context, setContext] = useState({})
 
-  // useEffect(() => {
-  //   welcomeMessage()
-  // }, [])
+  useEffect(() => {
+    welcomeMessage()
+  }, [])
 
   const welcomeMessage = async () => {
     const resultService = await ConversationService.message()
