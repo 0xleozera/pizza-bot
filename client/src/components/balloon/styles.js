@@ -4,18 +4,19 @@ import { colors } from 'assets'
 export const Container = styled.div`
   display: flex;
   align-self: ${({ author }) => author === 'me' ? 'flex-end' : 'flex-start'};
-  max-width: 90%
+  max-width: 700px;
   min-height: 60px;
   margin-bottom: 10px;
 
   @media (max-width: 700px) {
     margin-bottom: 20px;
+    max-width: 90%
   }
 `
 
 export const Indicator = styled.div`
   background-color: ${({ author }) => author === 'me' ? colors.button : colors.hover};
-  width: 6px;
+  width: 8px;
 
   ${({ author }) => author === 'me' ?
     css`
