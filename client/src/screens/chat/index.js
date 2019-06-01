@@ -1,5 +1,11 @@
 import React from 'react'
 
-const Chat = () => <div>Chat</div>
+import { Header } from 'components'
+
+const Chat = () => (
+  <>
+    <Header />
+  </>
+)
 
 export default Chat
