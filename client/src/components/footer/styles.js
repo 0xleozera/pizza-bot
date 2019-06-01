@@ -27,7 +27,7 @@ export const Field = styled.input.attrs({
   padding: 0px 20px;
   color: ${colors.base};
   margin-right: 20px;
-  width: 80%;
+  width: 90%;
 
   &::placeholder {
     color: ${colors.placeholder};
