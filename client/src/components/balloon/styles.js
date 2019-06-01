@@ -4,8 +4,7 @@ import { colors } from 'assets'
 export const Container = styled.div`
   display: flex;
   align-self: ${({ author }) => author === 'me' ? 'flex-end' : 'flex-start'};
-  width: 90%;
-  max-width: 700px;
+  max-width: 90%
   min-height: 60px;
   margin-bottom: 10px;
 
@@ -16,7 +15,7 @@ export const Container = styled.div`
 
 export const Indicator = styled.div`
   background-color: ${({ author }) => author === 'me' ? colors.button : colors.hover};
-  width: 1.5%;
+  width: 6px;
 
   ${({ author }) => author === 'me' ?
     css`
@@ -32,7 +31,7 @@ export const Indicator = styled.div`
   };
 
   @media (max-width: 700px) {
-    width: 2.5%;
+    width: 8px;
   }
 `
 
