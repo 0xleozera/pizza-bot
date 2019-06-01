@@ -5,5 +5,6 @@ export default {
   base: '#f8f8f9',
   placeholder: '#93a5ba',
   button: '#9e4284',
-  hover: '#84326d'
+  hover: '#84326d',
+  details: '#444444'
 }

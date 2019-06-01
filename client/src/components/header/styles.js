@@ -8,7 +8,8 @@ export const Container = styled.div`
   align-items: center;
   height: 80px;
   background-color: ${colors.secondary};
-  padding: 0px 20px;
+  padding: 5px 20px;
+  border-bottom: 1px solid ${colors.details};
 `
 
 export const Avatar = styled.div`

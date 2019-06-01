@@ -9,6 +9,7 @@ export const Form = styled.form`
   justify-content: center;
   height: 90px;
   background-color: ${colors.secondary};
+  border-top: 1px solid ${colors.details};
 `
 
 export const Container = styled.div`
@@ -30,6 +31,10 @@ export const Field = styled.input.attrs({
 
   &::placeholder {
     color: ${colors.placeholder};
+  }
+
+  @media (max-width: 700px) {
+    width: 65%;
   }
 `
 
